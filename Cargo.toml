@@ -1,0 +1,13 @@
+[package]
+name = "rust_commad_line_tools"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+assert_cmd = "2"
+clap = "2.33"
+predicates = "2"
+
+[[bin]]
+name = "echor"
+path = "src/bin/echor/echor.rs"
