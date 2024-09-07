@@ -11,3 +11,7 @@ predicates = "2"
 [[bin]]
 name = "echor"
 path = "src/bin/echor/echor.rs"
+
+[[bin]]
+name = "catr"
+path = "src/bin/catr/lib/mod.rs"
