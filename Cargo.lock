@@ -77,6 +77,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "catr"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "clap",
+ "predicates 2.1.5",
+]
+
+[[package]]
 name = "clap"
 version = "2.34.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -102,6 +111,15 @@ name = "doc-comment"
 version = "0.3.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "fea41bba32d969b513997752735605054bc0dfa92b4c56bf1189f2e174be7a10"
+
+[[package]]
+name = "echor"
+version = "0.1.0"
+dependencies = [
+ "assert_cmd",
+ "clap",
+ "predicates 2.1.5",
+]
 
 [[package]]
 name = "either"
@@ -250,15 +268,6 @@ name = "regex-syntax"
 version = "0.8.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7a66a03ae7c801facd77a29370b4faec201768915ac14a721ba36f20bc9c209b"
-
-[[package]]
-name = "rust_commad_line_tools"
-version = "0.1.0"
-dependencies = [
- "assert_cmd",
- "clap",
- "predicates 2.1.5",
-]
 
 [[package]]
 name = "serde"
