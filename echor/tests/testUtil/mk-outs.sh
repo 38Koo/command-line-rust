@@ -1,6 +1,6 @@
 #!/usr/vin/env bash
 
-OUTDIR="src/bin/echor/tests/expected"
+OUTDIR="echor/tests/expected"
 [[ ! -d "$OUTDIR" ]] && mkdir -p "$OUTDIR"
 
 echo "Hello there" > "$OUTDIR/hello1.txt"
