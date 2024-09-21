@@ -1,0 +1,19 @@
+==> headr/tests/inputs/empty.txt <==
+
+==> headr/tests/inputs/one.txt <==
+one
+
+==> headr/tests/inputs/two.txt <==
+one
+two
+
+==> headr/tests/inputs/three.txt <==
+one
+two
+three
+
+==> headr/tests/inputs/ten.txt <==
+one
+two
+three
+four
